@@ -1,0 +1,1 @@
+﻿Console.WriteLine("Send help");
