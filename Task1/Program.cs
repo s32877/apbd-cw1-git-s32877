@@ -32,6 +32,9 @@
             if (values.Length == 0)
                 return 0;
             int res = values[0];
+            foreach (var v in values)
+                if (v > res)
+                    res = v;
 
             return res;
         }
