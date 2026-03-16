@@ -22,7 +22,7 @@
         public static double CalculateAverage(int[] values)
         {
             if (values.Length == 0)
-                return 0;
+                return 3;
 
             double sum = 0;
             foreach (var v in values)
