@@ -14,6 +14,11 @@
                 Console.WriteLine(i);
             }
         }
+
+        public double CalculateAverage(int[] values)
+        {
+            return values.Average();
+        }
     }
 }
     
