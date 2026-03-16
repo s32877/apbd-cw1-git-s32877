@@ -42,6 +42,18 @@
 
             return res;
         }
+
+        public int CalculateMin(int[] values)
+        {
+            if (values.Length == 0)
+                return 0;
+            int mini = values[0];
+            foreach (var v in values)
+                if (v < mini)
+                    mini = v;
+
+            return mini;
+        }
     }
 }
     
