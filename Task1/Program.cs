@@ -47,12 +47,12 @@
         {
             if (values.Length == 0)
                 return 0;
-            int mini = values[0];
+            int res = values[0];
             foreach (var v in values)
-                if (v < mini)
-                    mini = v;
+                if (v < res)
+                    res = v;
 
-            return mini;
+            return res;
         }
     }
 }
