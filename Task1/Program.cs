@@ -17,6 +17,8 @@
             int[] maxi = { 1, 2, 7, 8 };
             int c = CalculateMax(maxi);
             Console.WriteLine(c);
+            
+            Console.WriteLine("Man this is taking so long");
         }
 
         public static double CalculateAverage(int[] values)
