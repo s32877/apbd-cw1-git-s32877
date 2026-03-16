@@ -13,9 +13,13 @@
             {
                 Console.WriteLine(i);
             }
+
+            int[] maxi = { 1, 2, 7, 8 };
+            int c = CalculateMax(maxi);
+            Console.WriteLine(c);
         }
 
-        public double CalculateAverage(int[] values)
+        public static double CalculateAverage(int[] values)
         {
             if (values.Length == 0)
                 return 0;
@@ -27,7 +31,7 @@
             return sum / values.Length;
         }
 
-        public int CalculateMax(int[] values)
+        public static int CalculateMax(int[] values)
         {
             if (values.Length == 0)
                 return 0;
