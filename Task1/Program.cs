@@ -17,14 +17,12 @@
             int[] maxi = { 1, 2, 7, 8 };
             int c = CalculateMax(maxi);
             Console.WriteLine(c);
-            
-            Console.WriteLine("Man this is taking so long");
         }
 
         public static double CalculateAverage(int[] values)
         {
             if (values.Length == 0)
-                return 0;
+                return 1;
 
             double sum = 0;
             foreach (var v in values)
